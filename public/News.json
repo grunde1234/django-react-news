@@ -1,0 +1,73 @@
+[
+    {
+        "id":"1",
+        "image": "../public/assets/images/n.jpg",
+        "title": "the man and his wife",
+        "content": "the man went to look for her in the kichen and found her drinking tea and bread and he was in shock and shouted",
+        "date": "25-01-2003",
+        "location": "Abuja"
+    }, 
+    {   "id": "2",
+        "image": "../public/assets/images/newsHero.png",
+        "title": "the man ",
+        "content": "the man went",
+        "date": "25-01-2003",
+        "location":"Abuja"
+    }, 
+    {   "id": "2",
+        "image": "../public/assets/images/newsHero.png",
+        "title": "the man ",
+        "content": "the man went",
+        "date": "25-01-2003",
+        "location":"Abuja"
+    }, 
+    {   "id": "2",
+        "image": "../public/assets/images/newsHero.png",
+        "title": "the man ",
+        "content": "the man went",
+        "date": "25-01-2003",
+        "location":"Abuja"
+    }, 
+    {   "id": "2",
+        "image": "../public/assets/images/newsHero.png",
+        "title": "the man ",
+        "content": "the man went",
+        "date": "25-01-2003",
+        "location":"Abuja"
+    }, 
+    {   "id": "2",
+        "image": "../public/assets/images/newsHero.png",
+        "title": "the man ",
+        "content": "the man went",
+        "date": "25-01-2003",
+        "location":"Abuja"
+    }, 
+    {   "id": "2",
+        "image": "../public/assets/images/newsHero.png",
+        "title": "the man ",
+        "content": "the man went",
+        "date": "25-01-2003",
+        "location":"Abuja"
+    }, 
+    {   "id": "2",
+        "image": "../public/assets/images/newsHero.png",
+        "title": "the man ",
+        "content": "the man went",
+        "date": "25-01-2003",
+        "location":"Abuja"
+    }, 
+    {   "id": "2",
+        "image": "../public/assets/images/newsHero.png",
+        "title": "the man ",
+        "content": "the man went",
+        "date": "25-01-2003",
+        "location":"Abuja"
+    }, 
+    {   "id": "2",
+        "image": "../public/assets/images/newsHero.png",
+        "title": "the man ",
+        "content": "the man went",
+        "date": "25-01-2003",
+        "location":"Abuja"
+    }
+]
