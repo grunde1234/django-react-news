@@ -11,7 +11,7 @@ export default defineConfig({
       '/api':{
         target: 'https://django-article-api.onrender.com/api',
         changeOrigin: true,
-        rewrite: (path)=>path.replace(/^\/api/, ' ')
+        rewrite: (path)=>path.replace(/^\/api/, '')
       }
     }
   }
