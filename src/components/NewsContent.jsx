@@ -23,7 +23,7 @@ const NewsContent = ({home=false}) => {
 
     try{
        const res = await axios.get(apiUrl);
-       setData(res.data.results || res.data); // Handle both paginated and non-paginated responses
+       setData(res.data.results); // Handle both paginated and non-paginated responses
        console.log(res)
     }catch(error){
       console.log(error.message)
