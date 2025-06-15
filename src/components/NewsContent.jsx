@@ -17,7 +17,10 @@ const NewsContent = ({home=false}) => {
   useEffect(() => {
    
     const getData = async()=>{
-      const apiUrl = home ?'/api/articles?limit=1': '/api/articles';
+      const apiUrl = home 
+  ? `${import.meta.env.VITE_API_URL}/articles?limit=1` 
+  : `${import.meta.env.VITE_API_URL}/articles`;
+
     try{
        const res = await axios.get(apiUrl);
        setData(res.data.results || res.data); // Handle both paginated and non-paginated responses
