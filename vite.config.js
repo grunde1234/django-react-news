@@ -9,9 +9,9 @@ export default defineConfig({
     port: 5000,
     proxy:{
       '/api':{
-        target: 'https://django-article-api.onrender.com/api',
+        target: 'https://django-article-api.onrender.com',
         changeOrigin: true,
-        rewrite: (path)=>path.replace(/^\/api/, '')
+        rewrite: (path)=>path.replace(/^\/api/, '/api')
       }
     }
   }
