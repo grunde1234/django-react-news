@@ -22,7 +22,7 @@ const AddUserPage = () => {
   const addUser = async (formData) => {
     try {
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}/articles/journalist/`,
+        `${import.meta.env.VITE_API_URL}/journalist/`,
         formData,
         {
           headers: {
