@@ -17,7 +17,7 @@ const App = () => {
   // ✅ Cleaned up addNews function
   const addNews = async (newsData) => {
     try {
-      const response = await axios.post('/api/articles/add', newsData, {
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/articles/add`, newsData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
