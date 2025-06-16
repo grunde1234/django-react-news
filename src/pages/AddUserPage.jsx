@@ -24,7 +24,7 @@ const handleChange = (e, previous)=>{
 
 const add = async (formData) => {
     try{
-        const response = await axios.post('/api/journalist/', formData, {
+        const response = await axios.post( `${import.meta.env.VITE_API_URL}/articles/journalist/`, formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             },
